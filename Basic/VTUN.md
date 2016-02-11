@@ -52,3 +52,6 @@ VTUN很容易和高度可配置的。它可用於各種網絡任務：
     Solaris:
         Solaris 2.6, 7, 8, 9
     
+
+
+參考文獻:http://vtun.info/features.html
