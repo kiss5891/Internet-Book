@@ -24,4 +24,31 @@ VTUN很容易和高度可配置的。它可用於各種網絡任務：
     TCP:
         允許建立防火牆後面的通道。很可靠。
     UDP:
-        快速高效的協議與小通道的。損耗
+        快速高效的協議與小損耗。
+壓縮:
+
+    Deflate (zlib):
+        非常有效的壓縮，只支持HTTP
+    LZO (lzo):
+        超快的壓縮支援UDP、TCP
+
+加密:
+
+    基礎驗證:
+        無明文密碼。
+    BlowFish 128位密鑰:
+        快速的高效的加密與128位元的MD5 Hash keys。
+
+流量整理:
+
+    可以限制通道內的進和出速度。
+    
+運行平台:
+    
+    Linux:
+        RedHat, Debian, Corel
+    FreeBSD and other BSD clones:
+        FreeBSD 3.x, 4.x, OpenBSD, Apple OS/X 
+    Solaris:
+        Solaris 2.6, 7, 8, 9
+    
