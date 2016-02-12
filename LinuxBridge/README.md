@@ -28,9 +28,9 @@ max message age
 
 path cost
 
-port priority
+port priority(接孔優先等級)
 
-stp
+stp(生成樹)
 
 
 
